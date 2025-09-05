@@ -33,5 +33,7 @@ urlpatterns = [
     
     path("social/complete/", social_complete, name="social_complete"),
     
+    path("api/me/", views.me_view , name="me"),
+    
     
 ]
